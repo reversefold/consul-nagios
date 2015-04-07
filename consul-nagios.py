@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 """
+Gets the status of a health check from Consul, output its output, and exit with
+a nagios-compliant exit code which maps to the state of the check.
+
 Usage:
     consul-nagios.py <service> <CheckID> [--tag=<tag>]
 
